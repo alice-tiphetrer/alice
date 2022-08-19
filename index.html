@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2 style="color:red">Welcome</h2>
+<p>thank you visit my Personal Homepage</p>
+<p>You can know many things for me.</p>
+
+<div class="header" style="height:50px">
+  <h2></h2>
+</div>
+
+<div class="row">
+
+  <div class="column" style="background-color:#aaa; height: 800px;"><h2 style="color: red;">about me</h2> <p style="color:rgba(0, 255, 195, 0.868) background-color:#aaa;">emmmm....</p>
+    <p style="color:blueviolet background-color:#aaa;">you now my name i know</p>
+    <p style="color:blueviolet background-color:#aaa;">so i a loke html and java,c++</p>
+    <p style="color:blueviolet background-color:#aaa;">yes</p>
+    <p style="color:blueviolet background-color:#aaa;">just this</p></div>
+  <div class="column" style="background-color:#bbb; height: 800px;" ><h2 style="color: red;">about html</h2> 
+    <p style="color:blueviolet background-color:#aaa;">about html???</p>
+    <p style="color:blueviolet background-color:#aaa;">you must lnow a web is javasprit,htmland,css to biuld</p>
+    <p style="color:blueviolet background-color:#aaa;">so,you must to know a lot of</p>
+    <p style="color:blueviolet background-color:#aaa;">this is a up for html</p>
+    <a href="https://www.bilibili.com/video/BV1hY411j7UM?spm_id_from=333.999.0.0&vd_source=56a7cd69fe1856287fbe7b312284aa44">about how to learn html</a>
+    <a href="https://code.visualstudio.com/#">this is "vscode" to download</a>
+    <a href="http://nodejs.cn/">this is "nodejs" to download</a>
+    <a href="https://cowtransfer.com/s/58dddb7abe7f40">this is "git" to download</a>
+  </div>
+
+
+  <div class="column" style="background-color:#ccc; height: 800px;">about c++</div>
+
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+
+</body>
+</html>
